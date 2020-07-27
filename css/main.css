@@ -1,0 +1,208 @@
+body {
+	font-family: 'Ultra', serif;
+	color: #000;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 0.12em;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+	line-height: ;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+a:hover {
+	color: inherit;
+}
+
+span {
+	color: #fff;
+}
+
+
+.header {
+	background-image: url(../img/anne-sophie-benoit-JaNtL4uGvG8-unsplash1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding-top: 220px;
+	padding-bottom: 400px;
+
+}
+
+
+
+.title {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 55px;
+	color: #fff;
+	letter-spacing: 0.3em;
+	margin-bottom: 50px;
+}
+
+.main {
+	margin: 0 auto;
+	width: 560px;
+	height: 130px;
+	background-color: rgba(23, 23, 23, 0.63);
+	position: relative;
+}
+
+.badje {
+	font-family: 'Yeseva One', cursive;
+	color: #fff;
+	position: absolute;
+	left: 190px;
+	top: -20px;
+	width: 180px;
+	height: 40px;
+	background-color: rgba(88, 88, 88, 0.92);
+	font-size: 30px;
+	letter-spacing: 0.3em;
+	text-align: center;
+	padding: 0;
+}
+
+.clock {
+	font-family: 'Yeseva One', cursive;
+	font-size: 55px;
+	color: #fff;
+	letter-spacing: 0.3em;
+	text-align: center;
+	padding-top: 35px;
+}
+
+
+@media screen and (max-width: 1300px) {
+	.header {
+		padding-top: 100px;
+	}
+
+	.title {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.main {
+		height: 110px;	
+	}
+
+	.title {
+		font-size: 40px;
+	}
+
+	.clock {
+		font-size: 40px;
+	}
+
+	.badje {
+		font-size: 20px;
+		padding-top: 8px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+
+	.main {
+		height: 90px;
+		width: 400px;	
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.clock {
+		font-size: 30px;
+	}
+
+	.badje {
+		font-size: 13px;
+		padding-top: 11px;
+		left:110px;
+	}
+	
+	.container {
+		width: 720px;
+	}
+
+	
+
+	}
+
+@media screen and (max-width: 768px) {
+
+	.header {
+		padding-top: 300px;
+		background-image: url(../img/guillaume-briard-lSXpV8bDeMA-unsplash.jpg);
+	}
+
+	.main {
+		height: 100px;
+		width: 300px;	
+	}
+
+	.title {
+		font-size: 30px;
+	}
+
+	.clock {
+		font-size: 30px;
+	}
+
+	.badje {
+		font-size: 15px;
+		padding-top: 11px;
+		left:100px;
+		width: 100px;
+	}
+	
+	.container {
+		width: 540px;
+	}
+	
+
+	}
+
+@media screen and (max-width: 576px) {
+
+	.container {
+		width: 350px;
+	}
+	
+	}
+
